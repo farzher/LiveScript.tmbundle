@@ -116,10 +116,10 @@
 			<string>(?x)
 				\b
 				p(?:ackage|r(?:ivate|otected)|ublic)
-		        |interface
-		        |enum|static|yield
-		       \b
-		   	</string>
+				|interface
+				|enum|static
+				\b
+			</string>
 			<key>name</key>
 			<string>keyword.illegal.livescript</string>
 		</dict>
