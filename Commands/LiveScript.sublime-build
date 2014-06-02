@@ -1,0 +1,5 @@
+{
+    "cmd": ["lsc.cmd", "-bc", "$file"],
+    "file_regex": "SyntaxError: (.*)",
+    "selector": "source.livescript"
+}
