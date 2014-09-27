@@ -283,7 +283,7 @@
 				\b(?&lt;![\.\$\-])(?:
 				return|break|continue|throw
 				|try|if|while|for|for\s+own|switch|unless|until
-				|catch|finally|else|case|default|fallthrough|when|otherwise|then
+				|catch|finally|else|nobreak|case|default|fallthrough|when|otherwise|then
 				|yield
 				)(?!\-|\s*:)\b
 			</string>
@@ -327,7 +327,7 @@
 				|default|delete|debugger|do
 				|for|for\s+own|finally|function|from|fallthrough
 				|super|switch
-				|else|extends|export|eval
+				|else|nobreak|extends|export|eval
 				|and|arguments
 				|new|not
 				|unless|until
@@ -702,7 +702,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>((?:\w|\-)+)(\??\!|\?? +)(?!((by|of|and|or|with|when|unless|if|is|isnt|else|from|in|catch|til|to|then|import)\b)| *(=|:|=>) |\.|\/\s+|\*|&lt;|&gt;|\%|\^|\|\||[\+\-][ =])</string>
+			<string>((?:\w|\-)+)(\??\!|\?? +)(?!((by|of|and|or|with|when|unless|if|is|isnt|else|nobreak|from|in|catch|til|to|then|import)\b)| *(=|:|=>) |\.|\/\s+|\*|&lt;|&gt;|\%|\^|\|\||[\+\-][ =])</string>
 		</dict>
 		<!-- Every other word is a variable -->
 		<dict>
