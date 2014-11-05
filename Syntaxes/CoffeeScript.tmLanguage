@@ -111,7 +111,7 @@
 			<key>name</key>
 			<string>meta.class.instance.constructor</string>
 		</dict>
-		<dict>
+		<!-- <dict>
 			<key>match</key>
 			<string>(?x)
 				\b
@@ -122,7 +122,7 @@
 			</string>
 			<key>name</key>
 			<string>keyword.illegal.livescript</string>
-		</dict>
+		</dict> -->
 		<dict>
 			<key>begin</key>
 			<string>'''</string>
